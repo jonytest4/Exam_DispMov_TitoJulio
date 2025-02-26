@@ -1,0 +1,12 @@
+/* export const getGeminiResponse = async (userMessage: string) => {
+  try {
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" }); // Usa gemini-2.0 o el modelo que prefieras
+    const result = await model.generateContent(userMessage);
+    const response = await result.response;
+
+    return response.text();
+  } catch (error: any) {
+    console.error("Error al obtener respuesta de Gemini:", error);
+    return "Error al conectar con Gemini.";
+  }
+}; */

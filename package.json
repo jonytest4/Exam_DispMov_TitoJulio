@@ -1,7 +1,7 @@
 {
   "name": "practica",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "node_modules/expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,30 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
     "expo": "~52.0.35",
+    "expo-document-picker": "^13.0.3",
+    "expo-file-system": "^18.0.11",
+    "expo-image": "^2.0.6",
+    "expo-router": "^4.0.17",
+    "expo-sharing": "^13.0.1",
+    "expo-splash-screen": "~0.29.22",
     "expo-status-bar": "~2.0.1",
+    "marked": "^15.0.7",
+    "mime": "^4.0.6",
+    "nativewind": "^4.1.23",
+    "openai": "^4.85.4",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-render-html": "^6.3.4",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-web": "~0.19.13",
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
